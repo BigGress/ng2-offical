@@ -1,0 +1,7 @@
+@function rem($num){
+    @return 10px * $num;
+}
+
+@function rgbaOpacity($color,$opacity){
+    @return rgba($color, $color, $color, $opacity);
+}
