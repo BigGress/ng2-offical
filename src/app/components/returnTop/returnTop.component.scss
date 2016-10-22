@@ -1,0 +1,24 @@
+.return-top-component {
+    position: fixed;
+    bottom: 2rem;
+    right: 5%;
+
+    .icon {
+        background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFgAAABYCAMAAABGS8AGAAAAz1BMVEX///8AAAD09PTi4uL5+fnm5uZubm7o6Oj8/Pzr6+v29vbl5eW1tbXu7u7GxsaIiIjLy8txcXGNjY2dnZ2np6d2dnbY2Njn5+fm5ubj4+N7e3tqamqsrKyEhITU1NT///9zc3Ozs7PQ0NDx8fHq6uq4uLi9vb3c3Nzk5OTj4+Pm5ubl5eXl5eXl5eXm5ubm5ubm5ubm5ubm5ubn5+fm5ubm5ubo6Ojo6Ojr6+vi4uLh4eGXl5eVlZXi4uL///9+fn6RkZGjo6OhoaGwsLBmZmYhzvD5AAAARHRSTlPmAOfm5+j95+bn59/x5+/57f349fT87I5nLPv+8/rsBfzy7efn8fDr5t3U0dDPybq3pZqUh3JjWTEjIfb26gT69/T18gVaONUAAAPwSURBVFjD7dlZV+IwGMbxZ5qUpq0FRFnKToHBBXfFBUYY7ff/TBNSNSPYJMDpGS/mf6E3+jsRqyRv8ENfOLm5HB8T0fH48mYSGnyTDn64PSe227cog4hRq+/a5Pz2YRf4serbgYcv8gLbrz5uCddOScCQGgvIaW1zuHPnOx40eY5/19kMrvkDCoPowK9tAIdnjmR1tHMWGsLP18TCBlnk+tkEfjpxsWHuyZMevlcsV7Hoex1cPaLYInpUVcNXNrbMvlLAnQsHW+dcdFLhCxd/12zEqhqHn2X3Ig2+WllvLlbXWF3z1ddw1Qa2WbHMrn4F3x9h547u1+EnQqHOGlZ0MCVPq/DziQV1bjmOf+pk6+R5Bb52dW49jg1k9/ozHBKD9RrJJPwEn1l610y2zv6Ga47ebfDHumUgOzUJd3yqdyMOBwUuD9Uw9Tsf8N0AqgZLtw0OW56BPLj7gNULdhJXwDCQqf8O1xwTN4ETeU/7Kgv41NO7HzCoVvZOE/iRqNyucCVsIpNHAVcDpGZzN1eBhD/kngIOqgL2mZErYdCSWmb+En6w9a6EzWT7gcO3QepPJF0JS1nx1AW3HD73kFJPuqswGJfLqbB3zmGCtEb75TdXwlKexYdIjfxAaCM1BqzBMor07BATF/okbJg7wU0/C7h/g0srC9i6xJhmAdMxjlkWMDsGQRYwyH/4W8HdOKbm8AaPWy/3Gxs8bmOKDKLj5Z90BlmXy39CGdS/wcRFBrkThDYyyA6Xb00ZRBRvprvkncu3f9NYkUFbcKvYsLSLIq/4XhuieVF8KuaXuWkbFsUWa1oodMuFglPg5eb8wwEwqFQqL6UKD/ul6XTaiBRbLMWm8GAPSeURRMPWWwXs20CQo6pN4SPRwUz+W+uDR9sQ8M+ZYhsrNt4qeFiv1+M6b/lV7TnAwVICl/KKjbc4Kqjg5vSXKFn1vAKgnqy4n6OqowLPpyr4kC8xABI4PwOiFgQ8nCkPN+I4poHrowSeLkqNxaJcXyw8Ds9edcexjk/N4GL+PcZhpxsoD5DyVdbCMvHLGy5SXmHNIV3CXfsN/nmYxASMLlEc0kUhUcE0Zm9wadbjvcZWAh/01GMFMQhRwJU6BPz+5LJ3uHmgGYTI0c063I4wa8LCHluDWWtPPbqRw6Z1mBftW6Myd1bg3jxX8DTDJjkeW4fZ634E5MsjAU/3eD0BB6NgfTxmMND7FUX1PNxmt+WA1+62l3DpN+9FwFjLrpqMIIulUpMiOhghKXoBcBiBx1oe5s6a61wphqY75F5kNubNaDCd7Sg9++F/9tcVss4WFywZXQn9+0usja7dvstFodHV5ve7jN3l+vgPliKdSBMcpI8AAAAASUVORK5CYII=) 50% no-repeat;
+
+        background-size: contain;
+
+       display: block;
+       width: 1.173rem;
+       height: 1.173rem;
+
+       transform: scale(0);
+
+       transition: all .2s;
+
+       &.show {
+            transform: scale(1);
+            // display: block;
+       }
+    }
+}

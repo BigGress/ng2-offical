@@ -178,6 +178,10 @@ module.exports = function(options) {
         {
           test: /\.(jpg|png|gif)$/,
           loader: 'file'
+        },
+        {
+            test: /\.svg$/,
+            loader: "raw-loader"
         }
       ],
 

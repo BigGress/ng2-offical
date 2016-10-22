@@ -1,0 +1,127 @@
+.boutique-component {
+    margin-top: .2rem;
+    background: rgb(255, 255, 255);
+
+    .title {
+        text-align: center;
+        padding: .4rem 0;
+
+        .icon-title {
+            background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAMAAAANIilAAAAAh1BMVEUAAAD/jY3/6+v/aWn/amr/bGz/amr/aWn/amr/aWn/bW3/amr/amr/amr/amr/amr/amr/amr/amr/aWn/amr/b2//amr/amr/a2v/a2v/amr/aWn/aWn/amr/a2v/bGz/d3f/amr/amr/a2v/amr/amr/amr/a2v/bGz/amr/amr/aWn/aWnL0n2IAAAALHRSTlMABQHDmQvj79bQEt+uhbFpgX6liW0Y+L1LLOizdl09Jg/9yZ6VZVI1HrSPRYOgLEMAAAGiSURBVEjHzdTbcoJADAbggAdUoHIQFVTAc1Xe//m6q67/DGUagjNtc7Wzm2/CJgD9bdhHz3VqkfXipI397FWNMQ9tvi5sPbwBhzc6LRvVwt3q7QWnI5U0bbjMQuseo8dV5TTtW1ELPayqYXMzfOhWOD1tcotMrKFZbB/d+4j6rwkH0AweXMyIsrM59I1msL3CgJ3CnMY/a1djM++Rv/buA6Y2GpVHKumgm3Wbq9WZ+CdH5ULXfTQ6VMuAeA28VBnxc15qGRGvgU8qIXy+mWrpEa+Bz2iTbt2VeA1sOer8pDcmQ7VaEqOBzUy21zw9auta1EIDl26F0IV5DUzp8GVnRK00MCXeg7q1uk1fCXBm1sV6H8VL3JfVO7VTEB/QtZ2d1VEn+jvY23KNn02/pQ7rOnpHW94v6z69o/Ou+qD/WNRRJ/rW1FFP9HtFHXWAjon1VOfdSKphIyKhhh2X9F1/GM3YCZFcw8o1rFzDyjWsXMPKNWwHPYOVali5hpVrWLmGlWtYgV5pEyWlDyvV1RZWrmGFOpjf7b6kLpH6l0Wc0z+LL/L7bWPuGUObAAAAAElFTkSuQmCC)
+            no-repeat;
+            background-size: 100% 100%;
+
+            width: 16px;
+            height: 16px;
+            display: inline-block;
+
+            vertical-align: bottom;
+        }
+
+        h2 {
+            margin: 0;
+            display: inline-block;
+            font-size: .4rem;
+            color: #ff6969;
+            font-weight: 400;
+        }
+    }
+
+    .body {
+        ul {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        li {
+            list-style: none;
+            float: left;
+            width: 50%;
+            border-top: 1px solid #e0e0e0;
+            height: 2.77rem;
+
+            &:nth-child(2n-1){
+                width: calc(50% - 1px);
+                border-right: 1px solid #e0e0e0;
+            }
+
+            .base-box {
+                height: 100%;
+            }
+
+            .base-box h4 {
+
+                font-size: .4rem;
+                font-weight: 100;
+
+                padding-top: .45rem;
+                padding-left: .2rem;
+
+                margin: 0;
+
+                .hot {
+                    color: rgb(255, 255, 255);
+                    background-color: #ff5000;
+
+                    border-radius: .8rem;
+                    border-bottom-left-radius: 0;
+
+                    padding: 0 .2rem;
+                    margin-top: -2px;
+
+                    font-size: .15rem;
+
+                    vertical-align: top;
+                }
+            }
+
+            .base-box p {
+                max-width: 10rem;
+                overflow: hidden;
+
+                padding-left: .2rem;
+
+                margin-top: .1rem;
+
+                color: #a5a5a5;
+                font-size: .32rem;
+
+                &.bottom {
+                    color: #ff6969;
+                    margin-top: .7rem;
+
+                    vertical-align: bottom;
+                }
+            }
+
+            .travel {
+                background: url("//gw.alicdn.com/tps/TB1pT91KVXXXXa9aXXXXXXXXXXX-375-192.jpg_400x400q75.jpg");
+                background-size: contain;
+                background-position: 0rem .23rem;
+                background-repeat: no-repeat;
+            }
+
+            .ticket {
+                background: url("//img.alicdn.com/tps/TB1lc9qMVXXXXXaXpXXXXXXXXXX-375-192.jpg_400x400q75.jpg");
+                background-size: contain;
+                background-position: 0rem .23rem;
+                background-repeat: no-repeat;
+            }
+
+            .play {
+                background: url("//gw.alicdn.com/tps/TB1IefeLpXXXXcQXpXXXXXXXXXX-375-192.jpg_400x400q75.jpg");
+                background-size: contain;
+                background-position: 0rem .23rem;
+                background-repeat: no-repeat;
+            }
+
+            .hotel {
+                background: url("//gw.alicdn.com/tps/TB1IOboMVXXXXX3aFXXXXXXXXXX-375-192.jpg_400x400q75.jpg");
+                background-size: contain;
+                background-position: 0rem .23rem;
+                background-repeat: no-repeat;
+            }
+        }
+    }
+}

@@ -1,0 +1,6 @@
+<section class="return-top-component" (window:scroll)="scroll($event)">
+    <div class="reutrn-top-btn">
+        <i class="icon" [ngClass]="{'show': show}"
+           (click)="toTop($event)"></i>
+    </div>
+</section>

@@ -1,0 +1,11 @@
+<article class="homeEntry-component">
+    <ul class="links">
+        <li *ngFor="let item of linksArr">
+            <a>
+                <div class="icon"
+                     [style.background-image]="item.image"></div>
+                <p>{{item.name}}</p>
+            </a>
+        </li>
+    </ul>
+</article>

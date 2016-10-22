@@ -1,0 +1,100 @@
+.live-component {
+    margin-top: .2rem;
+    background-color: rgb(255, 255, 255);
+
+    header {
+        display: flex;
+        justify-content: center;
+
+        padding: .3rem 0;
+
+        border-bottom: 1px solid #e0e0e0;
+
+        h4 {
+            margin: 0;
+
+            line-height: .45rem;
+            font-size: .4rem;
+            font-weight: 300;
+
+            color: #4a90e2;
+        }
+    }
+    .live-icon {
+        display: inline-block;
+        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAMAAACdt4HsAAAAkFBMVEUAAAA2of82of82of83oP83ov83ov8+sP83oP82of83oP82of83ov83of83oP83o/84pP83oP88ov89qv9Vqv83of82oP////+02/+BxP/q9f+43f9Lqv9yvf/5/P/x+P/a7f/F5P+Pyv+e0f9suv9Fp/86ov+k1P9asf9RrP/s9v/h8f/O6P+z2/+t2P9jtf+ae3dQAAAAFnRSTlMA+e3q1I5/Dt/LxKVzYmFTOzMeFQOxholimAAAAbRJREFUWMOll9uSgjAMQHsRFgRFRdMVRPGue/3/v1tQl4EWtCFnRh8ce4bSJE1YF3HkBr4nOBeeH7hRzFBMnQFoDJwps+QtfKw2HOGbzXJXQCfCfakYS3iKHLNnzIbwkuGMdTKRYIGcsA5GHKzgI9bG3AFrnHnL+gUgWJgGB1A4xv4ByUh7/xyQ8Enj/CWgkfV4GEIPhrX4hV6Mq/yR0Av5n1ku9MR9PICAnoj7I4TQm5CVaPVnlSbKIElXrTXqVv+09RvVyqbVMDWTIFUdpK0pYe4gUSoDg6zYBdz5/cqv9T3E0EQpBTWMn3drpfZQEbMIJTjddvgNFRFzMYJrrkre67EUIARZeUJ5QxAw316wL77Wy2VD4DPPWrAtPp8XaAo8JqwFpeMImkAwjhDsAXQBxwh20CLAbGFdGMwteLR34CGOsQyij4Mm8BGBdDqrgnNTEKBC+ZCUb0ILZVQyHbd6LkSodH5ks/qppTO6oFzy+h8GPUraKTtAhUMuqtSyTr5YyFcb9XIlX+/UBoPa4pCbLGqbR200qa0uudmmt/v0gYM+8tCHLvrYRx886aMvffgmj/9/E94V0pdzuuEAAAAASUVORK5CYII=);
+
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+
+        width: .4rem;
+        height: .4rem;
+
+        margin-right: .2rem;
+    }
+
+    .body {
+        display: flex;
+        padding: .32rem;
+        border-bottom: 1px solid #e0e0e0;
+
+        & > section {
+            flex: 1 1 50%;
+            width: 50%;
+
+            &:first-child {
+                margin-right: .15rem;
+            }
+        }
+
+        h4 {
+            margin: 0;
+            font-size: .35rem;
+
+            line-height: .48rem;
+        }
+
+        .play-icon {
+            display: inline-block;
+            width: 1.25rem;
+            height: .48rem;
+
+            background-image: url(//img.alicdn.com/tps/TB1QjT3LXXXXXXfXXXXXXXXXXXX-280-70.png);
+            background-position: 19.2% 0;
+            background-size: cover;
+
+            vertical-align: middle;
+        }
+
+        img {
+            width: 100%;
+        }
+
+        p {
+            color: #afafaf;
+        }
+    }
+
+    footer {
+        text-align: center;
+
+        p {
+            color: #666;
+            font-size: .34rem;
+
+            height: 1.06667rem;
+
+            margin: 0;
+
+            display: -webkit-box;
+            -webkit-box-align: center;
+            -webkit-box-pack: center;
+        }
+
+        a {
+            text-decoration: none;
+            color: #4a90e2;
+        }
+    }
+}

@@ -1,0 +1,19 @@
+<article class="wheel-component">
+    <!--<section class="wheel-image-list" (touchmove)="touchMove($event)">-->
+    <section class="wheel-image-list">
+        <!--轮播图片-->
+        <ul class="image-list" #list [style.transform]="'translateX(-' + imagePosition * imageInfo.width.toFixed(0) + 'px)'">
+            <li *ngFor="let item of imageData;">
+                <img [src]="item.src" alt="">
+            </li>
+        </ul>
+        <!--控制器-->
+        <ul class="wheel-control">
+            <li class="ctrl-ball" *ngFor="let item of images; let i = index;"
+                [ngClass]="{'active': (i === imagePosition) }">{{i === imagePosition}}</li>
+        </ul>
+    </section>
+    <!--<section>
+        {{imagePosition}}
+    </section>-->
+</article>

@@ -1,0 +1,44 @@
+.touch-move {
+    overflow: hidden;
+
+    ul {
+        margin: 0;
+        padding: .35rem;
+        padding-top: 0;
+
+
+        position: relative;
+        overflow: hidden;
+    }
+
+    ul li {
+        list-style: none;
+        width: 4.266rem;
+        // height: 2.83rem;
+        float: left;
+
+        margin-right: .2rem;
+
+        font-size: 0;
+
+        position: relative;
+
+
+        img {
+            width: 100%;
+
+        }
+
+        h4 {
+            position: absolute;
+            bottom: 1%;
+
+            margin: 0;
+            padding: .16rem;
+
+            color: #fff;
+
+            font-size: .45rem;
+        }
+    }
+}

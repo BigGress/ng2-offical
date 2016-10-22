@@ -1,0 +1,12 @@
+<section class="touch-move">
+    <ul [ngStyle]="{'width': images.length * 4.466 + 'rem'}"
+        (touchstart)="start($event)"
+        (touchmove)="move($event)"
+        (touchend)="end()"
+        #touchParent>
+        <li *ngFor="let item of images">
+            <img [src]="item.url" alt="">
+            <h4>浪石金滩</h4>
+        </li>
+    </ul>
+</section>

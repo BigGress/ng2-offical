@@ -15,6 +15,9 @@ import { App } from './app.component';
 import { APP_RESOLVER_PROVIDERS } from './app.resolver';
 import { AppState, InteralStateType } from './app.service';
 import { Home } from './home';
+import { indexComponents } from "./index/index";
+import { findComponent } from "./find/find.component";
+
 
 import { commons } from "./common/common";
 import { components } from "./components/component";
@@ -43,6 +46,9 @@ type StoreType = {
     App,
     // About,
     Home,
+    ...indexComponents,
+    findComponent,
+
     // NoContent,
     // XLarge
     ...commons,

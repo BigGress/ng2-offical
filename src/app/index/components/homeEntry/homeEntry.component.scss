@@ -1,0 +1,33 @@
+.homeEntry-component {
+    background: rgb(255, 255, 255);
+
+    .links {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+
+        li {
+            list-style: none;
+            float: left;
+            width: 20%;
+            text-align: center;
+            padding-top: .22rem;
+
+            .icon {
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position-x: center;
+                background-position-y: bottom;
+                height: 1.44rem;
+            }
+
+            p {
+                font-size: .3rem;
+            }
+        }
+    }
+
+    .icon {
+        height: 50px;
+    }
+}

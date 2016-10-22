@@ -29,6 +29,14 @@ export class App {
 
   ngOnInit() {
     console.log('Initial App State', this.appState.state);
+
+    this.resize();
+  }
+
+  resize(){
+      let html: HTMLElement = document.getElementsByTagName("html")[0];
+
+      html.style.fontSize = (window.outerWidth / 10) + "px";
   }
 
 }

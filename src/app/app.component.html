@@ -1,3 +1,34 @@
-<main-head></main-head>
+<main-head class="main-head"></main-head>
 
-<router-outlet></router-outlet>
+<router-outlet (window:resize)="resize()"></router-outlet>
+
+<return-top-btn></return-top-btn>
+
+<footer class="nav-btn">
+    <ul>
+        <li class="active">
+            <div class="index">
+                <div class="icon index-icon"></div>
+                 <p>首页</p>
+            </div>
+        </li>
+        <li>
+            <div class="find">
+                <div class="icon find-icon"></div>
+                <p>发现</p>
+            </div>
+        </li>
+        <li>
+            <div class="destination">
+                <div class="icon destination-icon"></div>
+                <p>目的地</p>
+            </div>
+        </li>
+        <li>
+            <div class="travel">
+                <div class="icon travel-icon"></div>
+                <p>行程</p>
+            </div>
+        </li>
+    </ul>
+</footer>

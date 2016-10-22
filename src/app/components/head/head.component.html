@@ -1,7 +1,8 @@
-<header class="main-head">
+<header class="main-head" #head (window:scroll)="scroll($event)">
     <a-select [default]="'选城市'"></a-select>
 
     <div class="select-input">
+        <a-icon class="search-icon"></a-icon>
         <input placeholder="目的地/景点/酒店/门票">
     </div>
 </header>

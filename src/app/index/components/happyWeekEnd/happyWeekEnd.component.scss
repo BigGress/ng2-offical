@@ -1,0 +1,50 @@
+.happy-week-end-component {
+    margin-top: .2rem;
+    background-color: rgb(255, 255, 255);
+
+    header {
+        display: flex;
+        justify-content: center;
+
+        padding: .3rem 0;
+
+        // border-bottom: 1px solid #e0e0e0;
+
+        h4 {
+            margin: 0;
+
+            line-height: .45rem;
+            font-size: .4rem;
+            font-weight: 300;
+
+            color: #4a90e2;
+        }
+    }
+
+    .happy-icon {
+        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAMAAAANIilAAAAAilBMVEUAAACUhuZ3d8uSf9qUhuaUh+aVhuaVh+aHeeKUhuaShOKUhuaVhuaPhOGUh+WThuWKft+UhuWUhuaVhuaUhuWPguCUh+aUhuaTheWRgeSUhuWVh+aUhOSSheWUhuWUhuWUhuWUhuWUhuaVheaTheWUhuaUhuaUh+WTheWSheOUheKUh+aTh+WVh+YSg7qhAAAALXRSTlMA4AQN7fn02AiMLOfLGbFGD4R2wFwU0W8xHrusPjp9aWHEtZVOpaGQUSYim1f+tqzPAAAC8klEQVRIx51XaWOCMAzlEpBDQeSSayqek///9xawpWtTBvN9cZCkL01fUqb8Ae1+SJpY+QjPqAOo209ig6QbYGYfBDcdQfHv0LxNaLDxyv8T6Tcno/sF49D4C0MfZ7dDcG/PGcL0ck2d0CDuIy/5CZ30ekknUtiqvc9q8PTqKt6Revll7b3rPn10DtvmZqv1b9rIMLzUhr/s7YYVwJEEf/cWYe3Y17i8BnxLtGhRo6dI4VG7pSGbbWGjfHHLxtbNjKKKsSIS4xc1bicOg9r32GYfiG2nTGBHHA6alNiyrILxYu7CslQZdWCBpnLbVv6EbecucOiIGCcsTx5Ta0cQR7BoRkDiR37XGUg6VBYhBP07QjLsDYbAI24QzsnDJzCp0xPX/iYcn74sVgci8/ygj9W776NFIzqO3qOiYkcs77XsFvpTnWsFvKjNHI8HTzi/3KTeX8Nz1FGUvOOlf9fw78rROeJ7rav4eQjESBDV6FzwvaYGkh5dZYLA+M7V6BhIFfHsTSy8lI4EklE8RJuC1wNKc4MFEluQpznExuwihu1dJe3jNLiMyhXG713jB1jCV0bz+jn6BJqz0IAJyFPcySpD+q8V5QR11Gcaw4E3a7HzTOdd8ha1ZIZK68bCGI/IYXPViPEwUPbAUAtKaojMDF8+hhhTAk5VVVK/MzwOUm9/OftlVRnkykDUK8h9rVMhbYikaHH1tQt1EIl5nW36de/M5wwRzz436nDSpi4EstULq19JhNt001eKdhx7jdaYVePIOpevNfVR2RU7nO6Wn7XsilVtzOyNzExXTGsjs3zM1uPK7dBQ3IYSux0zq2VjcaTuer+KFz4zetIh6xeQnzkQ8D32NMma8Lsqpr4FndfLCXYuyu00TOo66O1z36xRX15xml3ymTBW9wjN0e/5QCYphlFwc2BiZhilPg/WUPjdPFqRhbX3PELwe+gC7tMfd+gLQxXhkvk9B8fspEgWfTnsXWlstvDfon14W3O4ha2M9wflqaJZUeFQOQAAAABJRU5ErkJggg==);
+
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+
+        display: inline-block;
+
+        width: .4rem;
+        height: .4rem;
+
+        margin-right: .2rem;
+    }
+
+    .large-box {
+
+        div.img {
+            width: 100%;
+            height: 4rem;
+
+            background-repeat: no-repeat;
+            background-position: 50%;
+            background-size: cover;
+        }
+    }
+}
